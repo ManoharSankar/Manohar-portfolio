@@ -3,7 +3,6 @@ import {
   skills,
   education,
   experience,
-  trekking,
   footer,
 } from "./user-data/data.js";
 
@@ -452,7 +451,6 @@ fetchReposFromGit(gitRepo);
 fetchGitConnectedData(gitConnected);
 
 populateExp_Edu(experience, "experience");
-populateTrekking(trekking);
 populateExp_Edu(education, "education");
 
 populateLinks(footer, "footer");
