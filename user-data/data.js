@@ -28,6 +28,13 @@ export const education = [
     duration: "2011 - 2015",
     subtitle: "JNTU, Anantapur",
     details: [],
+    tags: [
+      "Data Structures & Algorithms",
+      "Operating Systems",
+      "Computer Networks",
+      "Compiler Designing",
+      "Cloud Computing",
+    ],
     icon: "graduation-cap",
   },
 ];
