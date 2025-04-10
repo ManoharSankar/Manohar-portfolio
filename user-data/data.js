@@ -87,7 +87,7 @@ export const footer = [
       //   },
       {
         text: "Github",
-        link: "https://manoharsankar.github.io/Manohar-portfolio/",
+        link: "https://github.com/ManoharSankar",
       },
     ],
   },
