@@ -11,17 +11,17 @@ export const skills = [
 
 export const experience = [
   {
-    company: "Algonomy Software",
+    title: "Algonomy Software",
     duration: "January 2019 - June 2019",
     subtitle: "DevOps Engineer",
     details: [
       "Escalent is a top research, data analytics and advisory firm that helps clients understand human and market behaviors to navigate disruption.As a DevOps Engineer, I was responsible for automating the end-to-end software delivery pipeline, enabling faster and reliable application deployment in a cloud-native environment. I collaborated closely with development and operations teams to ensure CI/CD best practices, infrastructure automation, monitoring, and system scalability.",
     ],
-    tags: ["Docker", "Linux", "AWS", "Selenium", "Git", "Jira"],
+    tags: ["Docker", "Linux", "AWS", "Shell Scripting","Git", "Jira"],
     icon: "truck ",
   },
     {
-      company: "dataGridz",
+      title: "dataGridz",
       duration: "December 2016 - December 2018",
       subtitle: "Software Engineer",
       details: [
