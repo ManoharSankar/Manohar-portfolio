@@ -11,7 +11,7 @@ export const skills = [
 
 export const experience = [
   {
-    title: "Escalent",
+    company: "Algonomy Software",
     duration: "January 2019 - June 2019",
     subtitle: "DevOps Engineer",
     details: [
@@ -21,7 +21,7 @@ export const experience = [
     icon: "truck ",
   },
     {
-      title: "NGKF Retail",
+      company: "dataGridz",
       duration: "December 2016 - December 2018",
       subtitle: "Software Engineer",
       details: [
