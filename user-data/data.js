@@ -5,7 +5,7 @@ export const bio = [
 ];
 
 export const skills = [
-  "Linux, Git, Selenium, Docker, Jenkins, KUbernetes, Terraform, AWS, Prometheus",
+  "Linux, Git, Selenium, Docker, Jenkins, Kubernetes, Terraform, AWS, Prometheus",
   "Grafana, Bash Scripting, Nginx, Apache, Ansible, JIRA, Python, Github Actions",
 ];
 
