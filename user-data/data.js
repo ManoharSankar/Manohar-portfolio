@@ -9,26 +9,6 @@ export const skills = [
   "Grafana, Bash Scripting, Nginx, Apache, Ansible, JIRA, Python, Github Actions",
 ];
 
-export const projects = [
-  {
-    title: "CI/CD Pipeline for Dockerized React App",
-    techStack: "React.js, Docker, Jenkins, GitHub Actions, AWS, Prometheus, Grafana",
-    description:
-      "Built a CI/CD pipeline that pushes Docker images to dev and prod repos based on branch. Integrated Prometheus and Grafana for health monitoring.",
-    github: "https://github.com/ManoharSankar/ReactappCapstoneProject.git",
-    icon: "truck",
-  },
-    {
-    title: "AWS Infrastructure with Terraform",
-    techStack: "Terraform, AWS EC2, S3, IAM, GitHub Actions",
-    description:
-      "Provisioned AWS infra with Terraform and automated deployments using GitHub Actions.",
-    github: "https://github.com/ManoharSankar/TerraformEC2Webserver.git",
-    github: "https://github.com/ManoharSankar/Terraforms3bucket.git" ,
-    icon: "truck",
-  },
-];
-
 export const experience = [
   {
     title: "Algonomy Software",
