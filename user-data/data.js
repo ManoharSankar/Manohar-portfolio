@@ -44,7 +44,7 @@ export const experience = [
     {
       title: "dataGridz",
       duration: "December 2016 - December 2018",
-      subtitle: "Software Engineer",
+      subtitle: "DevOps Engineer",
       details: [
         "NGKF Retail project will be to build a new Retail Listings web application for the NGKF Retail Group to initially be used in the 125 Park Ave office then implemented for national use.  Newmark Grubb Knight Frank is one of the world's leading commercial real estate advisory firms."      ],
       tags: [  "Aws", "Docker", "Jenkins", "Shell Scripting", "SonarQube","Java", "Selenium", "Git", "Jira"],
