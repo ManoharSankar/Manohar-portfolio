@@ -73,61 +73,6 @@ function mapBasicResponse(basics) {
   window.parent.document.title = name;
 }
 
-function populateProjects(items, id) {
-  const container = document.getElementById(id);
-
-  items.forEach((project) => {
-    const card = document.createElement("div");
-    card.className = "project-card";
-    card.style = `
-      border: 1px solid #ccc;
-      padding: 16px;
-      border-radius: 12px;
-      margin-bottom: 20px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-      background: #fff;
-    `;
-
-    const title = document.createElement("h3");
-    title.textContent = project.title;
-
-    const tech = document.createElement("p");
-    tech.innerHTML = `<strong>Tech Stack:</strong> ${project.techStack}`;
-
-    const desc = document.createElement("p");
-    desc.textContent = project.description;
-
-    const links = document.createElement("div");
-
-    if (project.github) {
-      const github = document.createElement("a");
-      github.href = project.github;
-      github.target = "_blank";
-      github.innerText = "GitHub";
-      github.style = "margin-right: 10px;";
-      links.appendChild(github);
-    }
-
-    if (project.demo) {
-      const demo = document.createElement("a");
-      demo.href = project.demo;
-      demo.target = "_blank";
-      demo.innerText = "Demo";
-      links.appendChild(demo);
-    }
-
-    card.appendChild(title);
-    card.appendChild(tech);
-    card.appendChild(desc);
-    card.appendChild(links);
-
-    container.appendChild(card);
-  });
-}
-
-populateProjects(projects, "projects");
-
-
 function populateBio(items, id) {
   const bioTag = document.getElementById(id);
   items.forEach((bioItem) => {
@@ -341,6 +286,59 @@ function populateRepo(items, id) {
   }
 }
 
+function populateProjects(items, id) {
+  const container = document.getElementById(id);
+
+  items.forEach((project) => {
+    const card = document.createElement("div");
+    card.className = "project-card";
+    card.style = `
+      border: 1px solid #ccc;
+      padding: 16px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      background: #fff;
+    `;
+
+    const title = document.createElement("h3");
+    title.textContent = project.title;
+
+    const tech = document.createElement("p");
+    tech.innerHTML = `<strong>Tech Stack:</strong> ${project.techStack}`;
+
+    const desc = document.createElement("p");
+    desc.textContent = project.description;
+
+    const links = document.createElement("div");
+
+    if (project.github) {
+      const github = document.createElement("a");
+      github.href = project.github;
+      github.target = "_blank";
+      github.innerText = "GitHub";
+      github.style = "margin-right: 10px;";
+      links.appendChild(github);
+    }
+
+    if (project.demo) {
+      const demo = document.createElement("a");
+      demo.href = project.demo;
+      demo.target = "_blank";
+      demo.innerText = "Demo";
+      links.appendChild(demo);
+    }
+
+    card.appendChild(title);
+    card.appendChild(tech);
+    card.appendChild(desc);
+    card.appendChild(links);
+
+    container.appendChild(card);
+  });
+}
+
+
 function populateExp_Edu(items, id) {
   let mainContainer = document.getElementById(id);
 
@@ -505,6 +503,7 @@ populateSkills(skills, "skills");
 fetchBlogsFromMedium(medium);
 fetchReposFromGit(gitRepo);
 fetchGitConnectedData(gitConnected);
+populateProjects(projects, "projects");
 
 populateExp_Edu(experience, "experience");
 populateExp_Edu(education, "education");
