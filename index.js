@@ -1,7 +1,7 @@
 import {
   bio,
   skills,
-  personalprojects,
+  projects,
   experience,
   education,
   footer,

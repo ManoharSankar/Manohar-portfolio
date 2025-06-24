@@ -18,7 +18,7 @@ export const projects = [
     github: "https://github.com/ManoharSankar/ReactappCapstoneProject.git",
     icon: "truck",
   },
-  {
+    {
     title: "AWS Infrastructure with Terraform",
     techStack: "Terraform, AWS EC2, S3, IAM, GitHub Actions",
     description:
@@ -28,6 +28,7 @@ export const projects = [
     icon: "truck",
   },
 ];
+
 export const experience = [
   {
     title: "Algonomy Software",
