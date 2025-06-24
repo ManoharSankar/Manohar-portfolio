@@ -9,7 +9,7 @@ export const skills = [
   "Grafana, Bash Scripting, Nginx, Apache, Ansible, JIRA, Python, Github Actions",
 ];
 
-export const experience = [
+export const personalprojects = [
   {
     title: "CI/CD Pipeline for Dockerized React App",
     techStack: "React.js, Docker, Jenkins, GitHub Actions, AWS, Prometheus, Grafana",
@@ -25,6 +25,8 @@ export const experience = [
     github: "https://github.com/ManoharSankar/TerraformEC2Webserver.git",
     github: "https://github.com/ManoharSankar/Terraforms3bucket.git" 
   },
+];
+export const experience = [
   {
     title: "Algonomy Software",
     duration: "January 2019 - June 2019",
