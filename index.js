@@ -305,7 +305,7 @@ function populateProjects(items, id) {
     title.textContent = project.title;
 
     const tech = document.createElement("p");
-    tech.innerHTML = `<strong>Tech Stack:</strong> ${project.tags}`;
+    tech.innerHTML = `<strong>Tech Stack:</strong> ${project.techStack}`;
 
     const desc = document.createElement("p");
     desc.textContent = project.description;
@@ -316,17 +316,7 @@ function populateProjects(items, id) {
       const github = document.createElement("a");
       github.href = project.github;
       github.target = "_blank";
-      github.innerText = "link";
-      github.style = "margin-right: 10px;";
-      links.appendChild(link);
-    }
-
-
-    if (project.github) {
-      const github = document.createElement("a");
-      github.href = project.github;
-      github.target = "_blank";
-      github.innerText = "github";
+      github.innerText = "GitHub";
       github.style = "margin-right: 10px;";
       links.appendChild(github);
     }
