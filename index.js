@@ -1,8 +1,9 @@
 import {
   bio,
   skills,
-  education,
+  personalprojects,
   experience,
+  education,
   footer,
 } from "./user-data/data.js";
 
