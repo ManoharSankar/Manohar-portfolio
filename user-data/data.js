@@ -12,19 +12,20 @@ export const skills = [
 export const projects = [
   {
     title: "CI/CD Pipeline for Dockerized React App",
-    tags: [ "React.js, Docker, Jenkins, GitHub Actions, AWS, Prometheus, Grafana" ],
     description:
       "Built a CI/CD pipeline that pushes Docker images to dev and prod repos based on branch. Integrated Prometheus and Grafana for health monitoring.",
     link: "https://github.com/ManoharSankar/ReactappCapstoneProject.git",
+    tags: [ "React.js, Docker, Jenkins, GitHub Actions, AWS, Prometheus, Grafana" ],
+
     icon: "truck",
   },
     {
     title: "AWS Infrastructure with Terraform",
-    tags: [ "Terraform", "AWS","EC2", "S3", "IAM", "GitHub Actions" ],
     description:
       "Provisioned AWS infra with Terraform and automated deployments using GitHub Actions.",
     github: "https://github.com/ManoharSankar/TerraformEC2Webserver.git",
     demo: "https://github.com/ManoharSankar/Terraforms3bucket.git",
+    tags: [ "Terraform", "AWS","EC2", "S3", "IAM", "GitHub Actions" ],
     icon: "truck",
   },
 ];
