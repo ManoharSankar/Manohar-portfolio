@@ -25,8 +25,6 @@ export const experience = [
     github: "https://github.com/ManoharSankar/TerraformEC2Webserver.git",
     github: "https://github.com/ManoharSankar/Terraforms3bucket.git" 
   },
-
-  
   {
     title: "Algonomy Software",
     duration: "January 2019 - June 2019",
