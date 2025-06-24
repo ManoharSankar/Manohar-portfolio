@@ -32,6 +32,37 @@ export const experience = [
 
 ];
 
+export const projects = [
+  {
+    title: "CI/CD Pipeline for Dockerized React App",
+    description:
+      "Built a CI/CD pipeline that pushes Docker images to dev and prod repos based on branch. Integrated Prometheus and Grafana for health monitoring.",
+    link: "https://github.com/ManoharSankar/ReactappCapstoneProject.git",
+    tags: [
+         "React.js, Docker, Jenkins, GitHub Actions, AWS, Prometheus, Grafana",
+    ],
+    icon: "truck",
+  },
+
+    {
+    title: "AWS Infrastructure with Terraform",
+    description:
+      "Provisioned AWS infra with Terraform and automated deployments using GitHub Actions.",
+    link: "https://github.com/ManoharSankar/TerraformEC2Webserver.git",
+    details: [],
+    tags: [
+           "Terraform", 
+           "AWS", 
+           "EC2", 
+           "S3", 
+           "IAM", 
+           "GitHub Actions",
+    ],
+    icon: "truck",
+  },
+  
+];
+
 export const education = [
   {
     title: "B.Tech. in Electronics and Communication Engineering",
